@@ -1,7 +1,4 @@
-import * as React from 'react';
-
 import Box from '@mui/material/Box';
-
 import Grid from '@mui/material/Grid';
 import { Button, Card, Typography } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -11,6 +8,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import { Stack } from '@mui/system';
+
 
 function Item(props) {
     const { sx, ...other } = props;

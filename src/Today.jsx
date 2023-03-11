@@ -57,9 +57,9 @@ export default function BasicGrid() {
          
           </Item>
         </Grid>
-        <Grid item xs={3}>
+        <Grid  item xs={3}>
           <Item>
-          <Card sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card  sx={{width:200,ml:4, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
                 <Typography>Likes</Typography>
@@ -79,7 +79,7 @@ export default function BasicGrid() {
           <Card sx={{width:200,ml:4, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
-                <Typography>Profile View</Typography>
+                <Typography>Profile Veeew</Typography>
                 <Button> <InstagramIcon/></Button>
             </Stack>
             <Stack direction="row" justifyContent="space-between">

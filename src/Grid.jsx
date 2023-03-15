@@ -16,7 +16,7 @@ function Item(props) {
            <Grid  container columns={{ xs: 4, sm: 8, md: 12 }}>
              <Grid xs ={10}>
                 <Item >
-                    <Typography  variant='h4'>Social Media Dashboard</Typography>
+                    <Typography  variant='h4'>Socia Media Dashboard</Typography>
                     <Typography variant='h8'>Total Followers : 23,004</Typography>
                 </Item>
               </Grid>

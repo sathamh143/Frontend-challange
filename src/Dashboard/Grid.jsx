@@ -1,6 +1,8 @@
 import Grid from '@mui/material/Grid';
 import { FormControlLabel, Switch, Typography } from '@mui/material';
 import Box from '@mui/material/Box';
+import Followers from './Followers';
+import Today from './Today'
 
 function Item(props) {
     const { sx, ...other } = props;
@@ -12,8 +14,9 @@ function Item(props) {
   export default function GridAutoColumns() {
     return (
      
-        <Box ml={10}>
-           <Grid  container columns={{ xs: 4, sm: 8, md: 12 }}>
+      <>
+        <Box >
+           <Grid  container columns={{ xs: 1, sm: 8, md: 12 }}>
              <Grid xs ={10}>
                 <Item >
                     <Typography  variant='h4'>Socia Media Dashboard</Typography>
@@ -31,6 +34,11 @@ function Item(props) {
               </Grid>
           </Grid>
         </Box>
+
+        
+        <Followers/>
+        <Today/>
+        </>
      
     );
   }

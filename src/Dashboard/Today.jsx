@@ -20,12 +20,12 @@ function Item(props) {
 export default function BasicGrid() {
   return (
     <>
-    <Box sx={{ flexGrow: 1,marginTop:5 }}ml={10}>
+    <Box sx={{ flexGrow: 1,marginTop:5 }}>
      
       <Grid container spacing={{ xs: 2, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         <Grid item xs={3}>
           <Item>
-          <Card sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card sx={{width:200, textAlign: 'center',}}>
 
             <Stack direction="row" justifyContent="space-between">
                 <Typography>Page View</Typography>
@@ -42,7 +42,7 @@ export default function BasicGrid() {
         </Grid>
         <Grid item xs={3}>
           <Item>
-          <Card sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card sx={{width:200, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
                 <Typography>Likes</Typography>
@@ -59,7 +59,7 @@ export default function BasicGrid() {
         </Grid>
         <Grid  item xs={3}>
           <Item>
-          <Card  sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card  sx={{width:200, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
                 <Typography>Likes</Typography>
@@ -76,7 +76,7 @@ export default function BasicGrid() {
         </Grid>
         <Grid item xs={3}>
           <Item>
-          <Card sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card sx={{width:200, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
                 <Typography>Profile Veeew</Typography>
@@ -93,7 +93,7 @@ export default function BasicGrid() {
         </Grid>
         <Grid item xs={3}>
           <Item>
-          <Card sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card sx={{width:200, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
                 <Typography>Retweets</Typography>
@@ -110,7 +110,7 @@ export default function BasicGrid() {
         </Grid>
         <Grid item xs={3}>
           <Item>
-          <Card sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card sx={{width:200, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
                 <Typography>Likes</Typography>
@@ -127,7 +127,7 @@ export default function BasicGrid() {
         </Grid>
         <Grid item xs={3}>
           <Item>
-          <Card sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card sx={{width:200, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
                 <Typography>Likes</Typography>
@@ -144,7 +144,7 @@ export default function BasicGrid() {
         </Grid>
         <Grid item xs={3}>
           <Item>
-          <Card sx={{width:200,ml:4, textAlign: 'center',}}>
+          <Card sx={{width:200, textAlign: 'center',}}>
 
           <Stack direction="row" justifyContent="space-between">
                 <Typography>Total View</Typography>

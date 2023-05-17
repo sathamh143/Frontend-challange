@@ -34,8 +34,6 @@ function Item(props) {
               </Grid>
           </Grid>
         </Box>
-
-        
         <Followers/>
         <Today/>
         </>

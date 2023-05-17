@@ -36,8 +36,7 @@ function App() {
                 </div>
                 <Routes>
                     <Route exact path="/" element={<Grid />} />
-                    <Route exact path="/about" element={<Nav />} />
-                  
+                    <Route exact path="/about" element={<Nav />} /> 
                 </Routes>
             </BrowserRouter>
         </>

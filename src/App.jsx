@@ -1,6 +1,7 @@
 import './App.css'
 import Nav from './Shopping/Nav'
 import Grid from './Dashboard/Grid'
+import Sidebar from './Trecking/Sidebar'
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
 
@@ -28,15 +29,16 @@ function App() {
                         </NavLink>
                     </div>
                     <div style={{ margin: '10px' }}>
-                        <NavLink to="/contact" style={({ isActive }) => ({ 
+                        <NavLink to="/time" style={({ isActive }) => ({ 
                             color: isActive ? 'greenyellow' : 'white' })}>
-                           
+                           Travel
                         </NavLink>
                     </div>
                 </div>
                 <Routes>
                     <Route exact path="/" element={<Grid />} />
                     <Route exact path="/about" element={<Nav />} /> 
+                    <Route exact path="/time" element={<Sidebar />} />
                 </Routes>
             </BrowserRouter>
         </>
